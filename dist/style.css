@@ -1,0 +1,98 @@
+body{
+    background: url(images/background.jpg);
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 3% 30%;
+    background-color: white;
+    max-height: 100vh;
+    padding: 30px;
+}
+#image{
+    border-radius: 3px;
+    margin: 0px;
+    padding: 10px 0px;
+    width: 95%;
+}
+#about_div{
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+/* #bev{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+    background-color: lightgrey;
+    padding: 60px;
+    border-radius: 30px;
+} */
+
+/* #dish{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    width: 20vw;
+    background-color: lightgrey;
+    padding: 60px;
+    border-radius: 30px;
+} */
+#img{
+    width: 60%;
+}
+#bev{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+/* #bev2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 40px;
+} */
+
+#item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+/* #dish2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 40px;
+} */
