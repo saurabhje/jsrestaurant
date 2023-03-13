@@ -9,6 +9,7 @@ const btn_div = document.createElement('div');
 const home_btn = document.createElement('button');
 const menu_btn = document.createElement('button');
 const contact_btn = document.createElement('button');
+btn_div.setAttribute('id','btn_div');
 
 home_btn.setAttribute("id","btn1");
 home_btn.innerText = "Home";

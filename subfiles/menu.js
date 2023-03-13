@@ -6,9 +6,12 @@ function menu(){
     menu.innerHTML = "Menu";
     content.append(menu);
 
-
+    const whole_div = document.createElement('div');
+    whole_div.setAttribute('id','whole_div');
     const beverages = document.createElement("div");
+    beverages.setAttribute('id','beverages');
     const header = document.createElement("h1");
+    header.setAttribute("id","header")
     header.innerText ="Beverages";
     beverages.append(header);
 
@@ -43,6 +46,8 @@ function menu(){
 
     const main_items = document.createElement('div');
     const header1 = document.createElement('h1');
+    header1.setAttribute("id","header")
+    main_items.setAttribute("id","main_items")
     header1.innerText = "Main Items";
     main_items.append(header1);
 
@@ -89,7 +94,8 @@ function menu(){
     main_items.append(item2);
     main_items.append(item3);
 
-    content.append(beverages);
-    content.append(main_items);
+    whole_div.append(beverages)
+    whole_div.append(main_items);
+    content.append(whole_div);
 }
 export {menu};

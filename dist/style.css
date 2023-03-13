@@ -8,12 +8,11 @@ body{
 #content{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    margin: 3% 30%;
+    margin: 5% 30%;
     background-color: white;
     max-height: 100vh;
-    padding: 30px;
+    /* padding: 30px; */
 }
 #image{
     border-radius: 3px;
@@ -28,8 +27,27 @@ body{
     align-items: center;
     color: black;
 }
-
-/* #bev{
+#whole_div{
+    height: auto;
+    background-color: white;
+}
+#beverages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#header{
+    padding: 3px;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+#main_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bev{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -40,7 +58,7 @@ body{
     background-color: lightgrey;
     padding: 60px;
     border-radius: 30px;
-} */
+}
 
 /* #dish{
     display: flex;
@@ -86,7 +104,22 @@ body{
     border-radius: 30px;
     padding: 40px;
 }
+#btn_div{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    
 
+}
+#btn_div >  button{
+    height: 40px;
+    width: 100px;
+    border: solid 1px black;
+    border-radius: 3px;
+
+}
 /* #dish2{
     display: flex;
     flex-direction: column;
